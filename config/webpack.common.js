@@ -49,7 +49,7 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			title: 'webpack 5',
 			favicon: paths.src + '/images/favicon.png',
-			template: paths.src + '/template.html', // template file
+			template: paths.src + '/index.html', // template file
 			filename: 'index.html', // output file
 		}),
 	],

@@ -1,3 +1,47 @@
 body {
-  width: 100vw;
+	width: 100vw;
+	background: #f7f8fa url(http://www.twoir.com/assets/image/black_bg.png) repeat;
+	// padding-top: 4.3125rem;
+	color: rgba(255,255,255,.75);
+}
+
+.bd-navbar {
+	background-color: #121212;
+	background-image: url(http://www.twoir.com/assets/image/nav_bg_pattern.png);
+	background-repeat: repeat-x;
+	border-bottom-color: #111111;
+}
+
+.navbar-brand {
+	background: url(http://www.twoir.com/assets/image/logo130x35.png) no-repeat;
+	width: 168px;
+	height: 40px;
+	display: block;
+	text-indent: -9999px;
+	white-space: nowrap;
+	line-height: 0;
+}
+
+.tudou-footer {
+    margin-top: 1.5rem!important;
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+    background-color: rgba(13,13,13,.75);
+    border-top: 1px solid #111;
+}
+
+@media (min-width: 992px) {
+	.bd-layout {
+	    grid-template-columns: 1fr 5fr;
+	}
+}
+
+
+@media (min-width: 768px) {
+	.bd-layout {
+	    display: grid;
+	    gap: 1.5rem;
+	    grid-template-areas: "sidebar main";
+	    grid-template-columns: 1fr 3fr;
+	}
 }
